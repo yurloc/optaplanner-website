@@ -7,6 +7,7 @@
 See https://www.youtube.com/playlist?list=PLJY69IMbAdq0uKPnjtWXZ2x7KE1eWg3ns[Geoffrey's OptaPlanner playlist on YouTube]
 for a list of all videos.
 
-+++
-<iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLJY69IMbAdq0uKPnjtWXZ2x7KE1eWg3ns&showinfo=1" frameborder="0" allowfullscreen></iframe>
-+++
+// Using the video_id/playlist syntax (with no video_id).
+// See https://github.com/asciidoctor/asciidoctor/pull/1187.
+// Results in showing the newest video in the playlist.
+video::/PLJY69IMbAdq0uKPnjtWXZ2x7KE1eWg3ns[youtube]
